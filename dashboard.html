@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Passport Portal</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="form.html">Form</a>
+      <a href="upload.html">Upload</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Applicant Dashboard</h2>
+    <p class="small-text">Track your application progress here.</p>
+
+    <div class="box-section">
+      <div class="box">
+        <h3>Status</h3>
+        <p id="statusText">Draft in progress</p>
+      </div>
+
+      <div class="box">
+        <h3>Saved Draft</h3>
+        <p id="savedInfo">No saved draft yet</p>
+      </div>
+
+      <div class="box">
+        <h3>Next Step</h3>
+        <a href="form.html" class="btn">Continue Form</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

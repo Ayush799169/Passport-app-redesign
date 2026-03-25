@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <div class="form-box">
+      <h2>Book Appointment</h2>
+      <p class="small-text">Step 3 of 3</p>
+
+      <form id="appointmentForm">
+        <label>Passport Office</label>
+        <select id="office">
+          <option value="">Select office</option>
+          <option>Varanasi Passport Seva Kendra</option>
+          <option>Prayagraj Passport Seva Kendra</option>
+          <option>Lucknow Passport Seva Kendra</option>
+        </select>
+
+        <label>Date</label>
+        <input type="date" id="appointmentDate">
+
+        <label>Time Slot</label>
+        <select id="timeSlot">
+          <option value="">Select time</option>
+          <option>10:00 AM</option>
+          <option>11:00 AM</option>
+          <option>12:00 PM</option>
+          <option>2:00 PM</option>
+        </select>
+
+        <button type="submit" class="btn">Confirm Appointment</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

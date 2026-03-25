@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Documents</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <div class="form-box">
+      <h2>Upload Documents</h2>
+      <p class="small-text">Step 2 of 3</p>
+      <p class="small-text">Upload the required documents: ID Proof, Address Proof, Date of Birth Proof, and Photo</p>
+
+      <form>
+        <label>ID Proof</label>
+        <input type="file">
+
+        <label>Address Proof</label>
+        <input type="file">
+
+        <label>Date of Birth Proof</label>
+        <input type="file">
+
+        <label>Photo</label>
+        <input type="file">
+
+        <p id="uploadMsg" class="small-text"></p>
+
+        <div class="button-row">
+          <button type="button" class="btn" onclick="showUploadMessage()">Save Upload</button>
+          <a href="appointment.html" class="btn">Next</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
